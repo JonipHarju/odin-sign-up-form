@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  /* font-family: "Rubik Glitch", cursive; */
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  text-shadow: 1px 2px 0.5px violet;
+  font-size: 1.5rem;
+}
+
+.leftSide {
+  width: 50%;
+  height: 100%;
+}
+
+.backgroundImage {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  z-index: 1;
+}
+.rightSide {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 100px;
+  z-index: 3;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 1px 1px 9px rgb(238, 130, 238), 0 0 0.5em violet,
+    0 0 0.8em violet;
+  font-family: "Orbitron", sans-serif;
+}
+
+.infoTextContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.infoText {
+  width: 60%;
+}
+
+.form {
+  background-color: black;
+  box-shadow: rgba(238, 130, 238, 0.4) 5px 5px,
+    rgba(238, 130, 238, 0.3) 10px 10px, rgba(238, 130, 238, 0.2) 15px 15px,
+    rgba(238, 130, 238, 0.1) 20px 20px, rgba(238, 130, 238, 0.05) 25px 25px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 70px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.input {
+  width: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  opacity: 100%;
+}
+
+.formTitle {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+input {
+  color: white;
+  background-color: rgb(2, 2, 2);
+  border: 1px solid violet;
+  border-radius: 3px;
+  opacity: 100%;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: rgba(238, 130, 238, 0.4) 0px 5px,
+    rgba(238, 130, 238, 0.3) 0px 10px, rgba(238, 130, 238, 0.2) 0px 15px,
+    rgba(238, 130, 238, 0.1) 0px 20px, rgba(238, 130, 238, 0.05) 0px 25px;
+}
+
+label {
+  opacity: 50%;
+}
+
+button {
+  font-size: 1.3rem;
+  position: relative;
+  top: 50px;
+  width: 170px;
+  height: 70px;
+  background-color: black;
+  color: violet;
+  border: 2px solid violet;
+  transition: 0.8s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 9px rgb(238, 130, 238), 0 0 0.5em violet, 0 0 0.8em violet;
+  text-shadow: 1px 1px 9px rgb(238, 130, 238), 0 0 0.5em violet,
+    0 0 0.8em violet;
+}

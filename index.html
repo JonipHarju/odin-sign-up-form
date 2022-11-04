@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="leftSide">
+      <img
+        class="backgroundImage"
+        src="./public/ray-zhuang-6-cvDnp9y7I-unsplash.jpg"
+        alt=""
+      />
+    </div>
+    <div class="rightSide">
+      <div class="infoTextContainer">
+        <h1>Be part of us..</h1>
+        <p class="infoText">
+          Sign the form below and our customer support will contact you as soon
+          as possible about your departure.
+        </p>
+      </div>
+      <form action="#">
+        <div class="form left">
+          <p class="formTitle">take the first step towards paradise.</p>
+          <div class="input">
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" id="firstName" required />
+          </div>
+
+          <div class="input">
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div class="input">
+            <label for="phoneNumber">Phone number</label>
+            <input
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+              minlength="7"
+              maxlength="12"
+            />
+          </div>
+
+          <div class="input">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="Password"
+              required
+              minlength="8"
+            />
+          </div>
+
+          <div class="input">
+            <label for="confirmPassword">Confirm password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              required
+            />
+          </div>
+        </div>
+        <div class="left button">
+          <button id="signUpButton">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
